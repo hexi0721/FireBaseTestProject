@@ -27,7 +27,7 @@ public class FireBaseManager : MonoBehaviour
     }
 
 
-    public async void Register(string email, string password)
+    public async void Register(string email, string password , string checkPassword , string userName)
     {
         try
         {
