@@ -1860,7 +1860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &657217414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2848,15 +2848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7d6bd593be86f542a059b1096629dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  email: {fileID: 381273514}
-  password: {fileID: 1846305969}
-  checkPassword: {fileID: 717131662}
-  userName: {fileID: 225444775}
-  registerButton: {fileID: 1250541996}
-  "\u5DF2\u7D93\u6709\u8A3B\u518A\u5E33\u865F": {fileID: 1889262197}
+  loginUIController: {fileID: 1533835266}
   fireBaseManager: {fileID: 832125909}
-  RegisterPage: {fileID: 1032551519}
-  LoginPage: {fileID: 1661537850}
 --- !u!1 &1250541994
 GameObject:
   m_ObjectHideFlags: 0
@@ -3068,9 +3061,8 @@ GameObject:
   - component: {fileID: 1533835265}
   - component: {fileID: 1533835264}
   - component: {fileID: 1533835266}
-  - component: {fileID: 1533835267}
   m_Layer: 5
-  m_Name: UI Document
+  m_Name: LoginScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3120,18 +3112,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84b94af4a4076594cb6554e775002340, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1533835267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533835263}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 339037dda189265409344916945161b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1595301493
